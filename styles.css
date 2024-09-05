@@ -1,0 +1,96 @@
+* body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #a87c46;
+
+}
+/*Navbar styling*/
+.navbar{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: orange;
+    justify-content: start;
+    align-items: flex-start;
+    height: 200px;
+    flex-direction: row;
+
+
+}
+/*Navlink styling*/
+
+.navlink{
+    text-decoration: none;
+    padding: 50px;
+    justify-content: end;
+    display: flex;
+    justify-content: end;
+
+   
+
+}
+
+.navlink:hover{
+    background-color: rgb(97, 37, 65);
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    transform: scale(0.9);
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-decoration: underline;
+
+}
+   /*Section styling*/
+
+.section{
+    padding: 50px;
+    margin: 5px;
+    text-align: center;
+    color: black;
+    flex: 1px;
+    border-radius: 1px;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: baseline;
+
+}
+/*image styling*/
+    
+.image{
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+
+    
+    
+     
+}
+  /* Button styling*/
+
+.button{
+    background-color: #a87c46;
+    padding: 20px;
+    margin: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.button:hover{
+    background-color: cadetblue;
+    color: rgb(247, 237, 237);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transform: scale(0.5);
+
+
+}
+/*Footer styling*/
+
+.footer{
+    padding: 20px;
+    margin: 0px;
+    background-color: rgb(36, 29, 29);
+    color: azure;
+    text-align: center;
+    font-family: cursive;
+}
