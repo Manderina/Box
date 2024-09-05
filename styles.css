@@ -11,7 +11,7 @@
     background-color: orange;
     justify-content: start;
     align-items: flex-start;
-    height: 200px;
+    height: 100px;
     flex-direction: row;
 
 
@@ -26,7 +26,6 @@
     justify-content: end;
 
    
-
 }
 
 .navlink:hover{
@@ -34,7 +33,7 @@
     color: aliceblue;
     font-family: Georgia, 'Times New Roman', Times, serif;
     cursor: pointer;
-    transform: scale(0.9);
+    transform: scale(0.5);
     box-sizing: border-box;
     border-radius: 10px;
     text-decoration: underline;
@@ -43,6 +42,7 @@
    /*Section styling*/
 
 .section{
+    display: flex;
     padding: 50px;
     margin: 5px;
     text-align: center;
@@ -50,25 +50,13 @@
     flex: 1px;
     border-radius: 1px;
     box-sizing: border-box;
-    flex-direction: column;
-    justify-content: baseline;
+    justify-content: space-around;
 
-}
-/*image styling*/
-    
-.image{
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column;
-
-    
-    
-     
-}
+}    
   /* Button styling*/
 
 .button{
-    background-color: #a87c46;
+    background-color: #802128;
     padding: 20px;
     margin: 20px;
     box-sizing: border-box;
@@ -87,7 +75,7 @@
 /*Footer styling*/
 
 .footer{
-    padding: 20px;
+    padding: 40px;
     margin: 0px;
     background-color: rgb(36, 29, 29);
     color: azure;
