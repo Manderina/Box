@@ -72,6 +72,16 @@
 
 
 }
+    /*form styling*/
+.form{
+    display: grid;
+    padding: 70px;
+    background-color: aliceblue;
+    margin-left: 300px;
+    margin-right: 300px;
+    
+}
+
 /*Footer styling*/
 
 .footer{
